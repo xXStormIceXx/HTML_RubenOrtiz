@@ -8,36 +8,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<section class="form-register">
-    <form action="datos.html" method="get">
-      <center><h4>Formulario de registro</h4></center>
-      <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese nombre(s)">
-      <input class="controls" type="text" name="apeliidos" id="apellidos" placeholder="Ingrese sus apellidos">
-      <p>Seleccione su tipo de Sexo </p>
-      <p>Masculino  <input type="radio" name="M">
-      </p><p>Femenino  <input type="radio" name="F"></p>
-      <p>Prefiero no reponder  <input type="radio" name="N/A"></p>
-      <input class="controls" type="email" name="email" id="email" placeholder="Ingrese su email">
-      <p>Deseo recibir información sobre novedades y ofertas</p>
-      <center><input type="checkbox" name="Info"></center>
-      <p>Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</p>
-      <center><input type="checkbox" name="TyC"></center>
-      <br>
-      <div>
-        <label for="poblacion">Poblacion</label>
-       <select name="poblacion" id="Problacion" placeholder="Poblacion">
-          <option value="Bucaramanga">Bucaramanga</option>
-          <option value="Floridablanca">Floridablanca</option>
-          <option value="Giron">Giron</option>
-          <option value="Piedecuesta">Piedecuesta</option>
-       </select>
-      </div>
-      <br>
-          <input class="controls" type="textarea" name="descripcion" id="descripcion" placeholder="Descripcion">
-          <input class="botons" type="submit" value="Enviar">
-      <footer><p>&copy;2024 Todos los derechos reservados a Ruben Ortiz.</p></footer>
-    </form>
-</section>
-
+    <div class="form-register">
+        <form action="" method="GET">
+            <center><h1>Formulario de Registro</h1></center>
+            <label for="nombre"><h2>Nombre:</h2></label>
+            <input class="controls" type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" maxlength="50" required>
+            
+            <label for="apellido"><h2>Apellido:</h2></label>
+            <input class="controls" type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" maxlength="50" required>
+            
+            <label for="poblacion"><h2>Población:</h2></label>
+            <select id="poblacion" name="poblacion">
+                <option value="bucaramanga">Bucaramanga</option>
+                <option value="giron">Girón</option>
+                <option value="floridablanca">Floridablanca</option>
+                <option value="piedecuesta">Piedecuesta</option>
+            </select>
+            <br>
+            <br>
+            <h2>Selecciona tu Sexo</h2>
+            <input type="radio" name="gen" id="gen_hombre" required>
+            <label for="gen_hombre">Hombre</label>
+            <br>
+            <input type="radio" name="gen" id="gen_mujer" required>
+            <label for="gen_mujer">Mujer</label>
+            <br>
+            <label for="email"><h2>Correo electrónico:</h2></label>
+            <input class="controls" type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+    
+            <label for="descripcion"><h2>Descripción:</h2></label>
+            <textarea class="controls" id="descripcion" name="descripcion" rows="4" cols="50" placeholder="Ingresa una descripción"></textarea>        
+            
+            <label for="info">Deseo recibir información sobre novedades y ofertas</label><br>
+            <input type="checkbox" name="info" id="info" checked>
+            <br>
+            <br>
+            <label for="condic">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+            <input type="checkbox" name="condic" id="condic">
+            <br>
+            <br>
+            <input class="botons" type="submit" value="Enviar">
+        </form>
+        <footer>
+            <p>&copy; 2024 Ruben Ortiz. Todos los derechos reservados a mi.</p>
+        </footer>
+    </div>
 </body>
 </html>
