@@ -46,3 +46,11 @@ body{
     left: 40%;
     top: 50%;
 }
+
+.accion{
+    width: 15%;
+    height: 20%;
+    position:absolute;
+    left: 40%;
+    top: 50%;
+}
