@@ -38,3 +38,11 @@ body{
     position:absolute;
     top: 20%;
 }
+
+.numeros{
+    width: 15%;
+    height: 20%;
+    position:absolute;
+    left: 40%;
+    top: 50%;
+}
