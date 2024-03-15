@@ -1,0 +1,138 @@
+ETIQUETAS DE TEXTO
+
+<em> texto>enfatizado
+<strong> texto>importante
+<mark> texto>resaltado
+<i> vozAtono>alternativo
+<b> palabra>clave
+<u> anotaciones
+<sub> <super> subíndice>A>superíndice
+<small> pequeñas>aclaraciones
+<var> variable>o>incógnita
+<samp> resultado>de>operación
+<kbd> entrada>de>usuario>htecladoá
+<dfn> <abbr> definición>A>abreviatura
+title significado
+<cite> títulos>de>trabajos>u>obras
+<q> citas>hfrasesá
+cite UR+ enlace>de>referencia
+<br> salto>de>línea
+<wbr> oportunidad>de>salto>de>línea
+<s> texto>eliminado>hinexactoá
+<ins> <del> texto>añadido>A>eliminado
+cite UR+ enlace>de>referencia
+datetime
+CechaAhora>h5SO6RIéá
+<time> fecha>A>hora>hlegibleá
+datetime CechaAhora>h5SO6RIéá
+<data> equivalencia>para>máquinas
+value información>hpara>robotsá
+<code> fragmento>de>código
+<a> <area> vínculos>y>área>de>enlaces
+href UR+ enlace>o>archivo
+hreflang 5dioma>h5SOR.3úéá
+download nombre>de>descarga
+rel alternate author bookmark help
+license prev next search prefetch
+nofollow noreferrer tag
+target _self _blank _parent destino
+type J5J; formato>de>archivo
+hsolo>para>Farea0á
+alt texto>alternativo
+coords lista>de>coordenadas
+shape rectangle circle poly default
+
+-----------------------------------------------------------------------------
+ETIQUETAS DE AGRUPACION
+
+<p> párrafo>de>texto
+<div> capa>hdivisión>en>bloqueá
+<span> capa>hfragmento>en>líneaá
+<hr> separación>temática
+<pre> texto>preformateado
+<blockquote> agrupación>de>cita
+cite UR+ enlace>de>referencia
+<figure> ilustración>hfiguraw>imagen111á
+<figcaption> leyenda>de>ilustración
+<main> contenido>principal
+<map> mapa>de>imágenes>hFarea0á
+name nombre>del>mapa
+
+----------------------------------------------------------------------------------------
+ETIQUETAS DE LISTAS
+
+<ul> lista>sin>orden
+<ol> lista>ordenada
+start primer>número>de>la>lista
+reversed lista>inversa
+type é a 4 i 5 tipo>numeración
+<li> elemento>de>la>lista
+value valor>del>elemento>hrobotsá
+<dl> lista>de>definiciones
+<dt> <dd> término>A>descripción
+
+--------------------------------------------------------------------------------------------
+ETIQUETAS DE MULTIMEDIA
+
+<img> imagen
+src UR+ enlace>a>imagen
+alt texto>alternativo>a>imagen
+width height anchoAalto>de>imagen
+<iframe> marco>flotante>h2TJ+á 2TJ+
+src UR+ enlace>a>página
+name nombre>del>iframe
+width height anchoAalto>de>imagen
+sandbox allowúforms allowúpointerúlock
+allowútopúnavigation allowúsameúorigin
+allowúpopups allowúscripts
+SWC
+<embed> recurso>externo
+UR+
+src
+enlace>a>recurso
+type J5J; formato>de>archivo
+width height anchoAalto>de>imagen
+SWC
+<object> recurso>externo
+data UR+ enlace>a>recurso
+name nombre>del>objeto
+type J5J; formato>de>archivo
+width height anchoAalto>de>imagen
+<param> parámetros>de>Fobject0
+name nombre>del>parámetro
+value valor>del>parámetro
+<video> elemento>de>video JPy W;BJ ODV
+<audio> elemento>de>audio JP. OPUS ODD
+para>Fvideo0>y>Faudio0
+src UR+ enlace>a>video
+preload none metadata auto
+mediagroup agrupación>multimedia
+autoplay reproduce>al>inicio
+loop modo>infinito>hbucleá
+muted silencia>el>audio
+controls muestra>controles
+solo>para>Fvideo0
+poster UR+ enlace>a>imagen>previa
+width height anchoAalto>de>imagen
+<source> formatos>alternativos
+src UR+ enlace>a>videoAaudio
+type J5J; -codecs8 GOV;G
+VTT
+<track> subtítulos
+src UR+ enlace>a>subtítulo
+lang 5dioma>h5SOR.3úéá
+label leyenda>del>subtítulo
+kind subtitles captions descriptions
+chapters metadata
+default subtítulo>primario
+<picture> imágenes :PD PND SVD W;BP D5C
+<source> formatos>para>Fpicture0
+srcset UR+ lista>de>imágenes
+sizes descriptor>de>ancho
+media media>queries
+type J5J; formato>de>archivo
+<canvas> lienzo>de>dibujo
+width height anchoAalto>del>lienzo
+
+---------------------------------------------------------------------
+
