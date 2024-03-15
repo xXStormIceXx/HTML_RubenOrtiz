@@ -1,0 +1,5 @@
+letter-spacing:[size]; normal
+line-height:[size];normal
+text-indent:[size];
+word-spacing:[size]; normal
+white-space: normal,no-wrap,
